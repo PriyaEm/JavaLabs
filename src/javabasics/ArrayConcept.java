@@ -1,7 +1,5 @@
 package javabasics;
 
-//Arrays
-
 public class ArrayConcept {
 
 	public static void main(String[] args) {
@@ -88,7 +86,7 @@ public class ArrayConcept {
 		ob[2]=12.33;
 		ob[3]="1/1/1990";
 		ob[4]='M';
-		ob[5]="London";
+		ob[5]="London,UK";
 		
 		System.out.println(ob[1]);
 		System.out.println(ob.length);
