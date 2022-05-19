@@ -1,8 +1,16 @@
-package javabasics;
+package ConstructorConcept;
+
+// constructor concept using this keyword
 
 public class ConstructorConcept {
-	// to initialize the class variables constructors are used
-	
+	// constructors are used to initialize the class variables
+	// Constructors looks like a function but it is not a function
+	// Constructors cannot return any value
+	// Constructor name should be same as class name
+	// constructors can be overloaded
+	// constructor will be called the moment we create the object of the particular
+	// class
+
 	// class variables
 	String name;
 	int age;
@@ -12,7 +20,7 @@ public class ConstructorConcept {
 		System.out.println("Default Constructor");
 	}
 
-	public ConstructorConcept(int i) { //1 parameter
+	public ConstructorConcept(int i) { // 1 parameter // called overloading
 		System.out.println("1 parameter Constructor");
 		System.out.println(i);
 	}
@@ -28,8 +36,7 @@ public class ConstructorConcept {
 		this.name = name; // this.classvariable = local variable
 		this.age = age; // if variable names are different then no need to use this keyword
 		System.out.println(name);
-		System.out.println(age);		
-
+		System.out.println(age);
 	}
 
 	public static void main(String[] args) {
@@ -38,6 +45,10 @@ public class ConstructorConcept {
 		ConstructorConcept obj1 = new ConstructorConcept(10);
 		ConstructorConcept obj2 = new ConstructorConcept(10, 20);
 		ConstructorConcept obj3 = new ConstructorConcept("Tom", 25);
+
+		// if we pass o value, o value constructor will be called
+		// if we pass 1 value, 1 value constructor will be called
+		// if we pass 2 value, 2 value construtor will be called
 
 	}
 
