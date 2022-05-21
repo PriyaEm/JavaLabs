@@ -62,16 +62,38 @@ public class LinkedListConcept {
 		// Iterator
 		System.out.println("********Using Iterator******");
 		Iterator<String> it = ll.iterator();
-		while(it.hasNext()){
-			System.out.println(it.next());					
+		while (it.hasNext()) {
+			System.out.println(it.next());
 		}
-		
-		//while loop
+
+		// while loop
 		System.out.println("********Using while loop******");
-		int num=0;
-		while(ll.size()>num) {
-		System.out.println(ll.get(num));
-		num++;			
+		int num = 0;
+		while (ll.size() > num) {
+			System.out.println(ll.get(num));
+			num++;
+		}
+
+		// Employee class objects
+
+		Employee e1 = new Employee("Ram", 25, "admin");
+		Employee e2 = new Employee("Guru", 28, "Maths");
+		Employee e3 = new Employee("Sai", 20, "IT");
+
+		// creating linkedlist
+		LinkedList<Employee> ll1 = new LinkedList<Employee>();
+
+		ll1.add(e1);
+		ll1.add(e2);
+		ll1.add(e3);
+
+		// Iteration to traverse the values
+		Iterator<Employee> it1 = ll1.iterator();
+		while(it1.hasNext()) {
+			Employee emp = it1.next();
+			System.out.println(emp.name);
+			System.out.println(emp.age);
+			System.out.println(emp.dept);			
 		}
 
 	}
