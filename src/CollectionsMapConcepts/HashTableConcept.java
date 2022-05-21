@@ -1,4 +1,4 @@
-package Collections;
+package CollectionsMapConcepts;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
