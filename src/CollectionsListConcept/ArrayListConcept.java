@@ -38,6 +38,8 @@ public class ArrayListConcept {
 
 		System.out.println(ar.size()); // size of array
 		System.out.println(ar.get(3)); // to get value from an index
+		System.out.println("LI=" + 0);
+		System.out.println("HI=" + (ar.size() - 1));
 
 		// to print all the values from Arraylist
 		// 1. for loop
@@ -61,7 +63,7 @@ public class ArrayListConcept {
 
 		// if we are not sure about which data type to use, then use "E"
 
-//		ArrayList<E> ar3 = new ArrayList<E>();
+		// ArrayList<E> ar3 = new ArrayList<E>();
 
 		// How to define user defined class object ArrayList //very important
 		// Employee class objects
