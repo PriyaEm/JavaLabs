@@ -18,7 +18,7 @@ public class SynchronizedArrayList {
 		list.add("Ruby");
 		list.add("Python");
 
-		// add.remove we don't need explicit synchronization
+		// add,remove we don't need explicit synchronization
 
 		// to fetch/traverse the values from the list -- we have to use explicit
 		// synchronization
