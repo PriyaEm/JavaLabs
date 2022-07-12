@@ -1,6 +1,6 @@
 package StringMethods;
 
-public class CompateToExample {
+public class CompareToExample {
 
 	public static void main(String[] args) {
 		

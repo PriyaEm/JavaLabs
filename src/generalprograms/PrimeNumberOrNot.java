@@ -23,3 +23,5 @@ public class PrimeNumberOrNot {
 			System.out.println(" Not a prime number");
 	}
 }
+
+

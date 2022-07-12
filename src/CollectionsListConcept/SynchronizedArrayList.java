@@ -39,7 +39,7 @@ public class SynchronizedArrayList {
 			empList.add("Jerry");
 			empList.add("Poco");
 
-			// we don't need any explicit synchronization for any opeartion:
+			// we don't need any explicit synchronization for any operation:
 			// add/remove/traverse(fetch)
 			Iterator<String> it1 = empList.iterator();
 
