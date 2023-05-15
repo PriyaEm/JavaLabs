@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="324115ff-d186-435b-91dc-4ca280e76fc7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ConstructorConcept/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ConstructorConcept/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/arraysExperiments/ArraysDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/arraysExperiments/ArraysDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConstructorConcept/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConstructorConcept/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConstructorConcept/ConstructorConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConstructorConcept/ConstructorConcept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arraysExperiments/ArraysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraysExperiments/ArraysDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generalprograms/Experiments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generalprograms/Experiments.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2PallgxbGPTaIpfK4CDEy7urxfi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="324115ff-d186-435b-91dc-4ca280e76fc7" name="Changes" comment="" />
+      <created>1683703231125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683703231125</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -26,13 +26,13 @@ public class ArraysDemo {
 
 		int[][] matrix = { { 1, 2, 3 }, { 4, 5, 6 } };
 
-//			System.out.println(matrix[0][2]);
+			System.out.println(matrix[1][2]);
 
 		int[][] matrix2 = new int[10][10];
 //			System.out.println(matrix[1][0]);
 
 //		System.out.println(Arrays.toString(arr5));
-		System.out.println(Arrays.toString(matrix));
+//		System.out.println(Arrays.toString(matrix));
 //		Arrays.sort(arr5);
 //		System.out.println(Arrays.toString(arr5));
 

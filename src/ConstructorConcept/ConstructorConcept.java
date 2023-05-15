@@ -48,7 +48,7 @@ public class ConstructorConcept {
 
 		// if we pass o value, o value constructor will be called
 		// if we pass 1 value, 1 value constructor will be called
-		// if we pass 2 value, 2 value construtor will be called
+		// if we pass 2 value, 2 value constructor will be called
 
 	}
 
