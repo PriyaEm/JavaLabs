@@ -8,8 +8,16 @@ public class ReverseMethodInterviewQuestion {
 		
 		String str = "Shanmuga Priya";
 		
+		String rev =" ";
+		
 		//length of a string
-		System.out.println(str.length());
+		int len = str.length();
+		
+		for(int i=len-1; i>=0; i--) {
+			rev = rev + str.charAt(i);			
+		}
+		
+		System.out.println(rev);
 
 	}
 

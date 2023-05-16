@@ -10,7 +10,7 @@ public class ReverseAnArrayDynamic {
 
 		int n = arr.length;
 		
-		System.out.println(n);
+//		System.out.println(n);
 
 		System.out.println(Arrays.toString(arr));
 
@@ -21,8 +21,8 @@ public class ReverseAnArrayDynamic {
 			arr[i]=arr[(n-1)-i];
 			arr[(n-1)-i]=temp;	
 			
-			System.out.println(arr[i]);
-			System.out.println(arr[n-1]);
+//			System.out.println(arr[i]);
+//			System.out.println(arr[n-1]);
 	}
 	
 	System.out.println(Arrays.toString(arr));

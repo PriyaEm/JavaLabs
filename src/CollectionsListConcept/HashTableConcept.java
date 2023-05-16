@@ -14,17 +14,17 @@ public class HashTableConcept {
 		// it cannot have any null key or null values
 
 		// 1st object
-		Hashtable h1 = new Hashtable();
+		Hashtable<Integer, String> h1 = new Hashtable<Integer, String>();
 		h1.put(1, "Test");
 		h1.put(2, "Automation");
 		h1.put(3, "Selenium");
 
 		// 2nd object
-		Hashtable h2 = new Hashtable();
+		Hashtable<Integer, String> h2 = new Hashtable<Integer, String>();
 
 		// create clone copy/shallow copy:
 		// to clone the 1st obj values in to 2nd obj
-		h2 = (Hashtable) h1.clone(); //
+		h2 = (Hashtable<Integer, String>) h1.clone(); //
 
 		System.out.println("Values of h1:" + h1);
 		System.out.println("Values of h2:" + h2);
@@ -38,7 +38,7 @@ public class HashTableConcept {
 		System.out.println("Values of h2:" + h2);
 
 		// contains method: used to check value is exist or not
-		Hashtable ht1 = new Hashtable();
+		Hashtable<String, String> ht1 = new Hashtable<String, String>();
 		ht1.put("A", "Maths");
 		ht1.put("B", "Science");
 		ht1.put("C", "English");
@@ -48,7 +48,7 @@ public class HashTableConcept {
 
 		// print all the values from hashtable--using Enumeration concept--elements()
 		// method
-		Enumeration e = ht1.elements();
+		Enumeration<String> e = ht1.elements();
 		System.out.println("Print values from ht using enumeration");
 
 		while (e.hasMoreElements()) {
@@ -61,7 +61,7 @@ public class HashTableConcept {
 		Set s = ht1.entrySet();
 		System.out.println(s);
 		
-		Hashtable ht2 = new Hashtable();
+		Hashtable<String, String> ht2 = new Hashtable<String, String>();
 		ht2.put("A", "Maths");
 		ht2.put("B", "Science");
 		ht2.put("C", "English");

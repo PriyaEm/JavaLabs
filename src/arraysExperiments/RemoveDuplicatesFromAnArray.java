@@ -28,8 +28,7 @@ public class RemoveDuplicatesFromAnArray {
 		
 		for(int e : arr) {
 			set.add(e); 		
-		}
-		
+		}		
 		System.out.println(set);
 	}
 }
