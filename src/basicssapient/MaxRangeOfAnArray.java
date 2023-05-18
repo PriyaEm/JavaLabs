@@ -1,4 +1,4 @@
-package basics;
+package basicssapient;
 
 public class MaxRangeOfAnArray {
 
