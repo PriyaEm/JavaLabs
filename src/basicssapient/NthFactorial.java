@@ -10,9 +10,9 @@ public class NthFactorial {
 
 	public static void main(String[] args) {
 
-		int n = 17;
-		int output = 1;
-		int max = Integer.MAX_VALUE;
+//		int n = 17;
+		
+//		int max = Integer.MAX_VALUE;
 //		System.out.println(max);
 
 
@@ -26,20 +26,21 @@ public class NthFactorial {
 //		}		
 //		System.out.println(output);
 		
-		int i=1;
-		int fac = 0;
-		while(output>0) {
-			output = output * i;
-			if (output > 0) {
-				fac=output;
+		
+		int facValue = 1, i=1, largeInt=0; 
+//		int i=1;
+//		int fac = 0;
+		while(facValue>0) {
+			facValue = facValue * i;
+			if (facValue > 0) {
+				largeInt=facValue;
 			}			
-			i++;
-			
+			i++;			
 		}
 		
 		System.out.println("the largest non negative Integer is: " + (i-2) );		
 		
-		System.out.println("Factorial of largest non negative Integer is: " + fac);
+		System.out.println("Factorial of largest non negative Integer is: " + largeInt);
 
 	}
 

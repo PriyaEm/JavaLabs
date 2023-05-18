@@ -15,7 +15,7 @@ public class MaxMinPairUsingScanner {
 		Scanner scanner1 = new Scanner(System.in);
 		String s = scanner1.nextLine();
 		
-		System.out.println(s);
+//		System.out.println(s);
 		
 		String[] str = s.split(" ");	 // String Array		
 		
@@ -27,7 +27,9 @@ public class MaxMinPairUsingScanner {
 			arr[i] = Integer.parseInt(str[i]);			
 		}
 		
+//		Arrays.sort(arr);		
 //		System.out.println(Arrays.toString(arr));	
+		
 		
 		int minVal = arr[0];
 		int maxVal = arr[0];
