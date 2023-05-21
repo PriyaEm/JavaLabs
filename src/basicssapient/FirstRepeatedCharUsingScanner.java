@@ -13,18 +13,23 @@ public class FirstRepeatedCharUsingScanner {
 
 		char[] c = inputStr.toCharArray();
 
-//		for (int i=0; i<inputStr.length(); i++) {
-//			if(c[i]==c[i+1]){ // g=e,e =e
-//				System.out.println(c[i]);	
-//				break;
-//			}			
-//		}
+		for (int i = 0; i < inputStr.length(); i++) {
+			if ((i + 1) < inputStr.length()) {
+				if (c[i] == c[i + 1]) { // g=e,e =e
+					System.out.println(c[i]);
+					break;
+				}
+			} else {
+				System.out.println("0");
+			}
 
-		int m = 0; // geek
-		while (c[m] != c[m + 1]) { //
-			m++;
 		}
-		System.out.println(c[m]);
+
+//		int m = 0; // geek
+//		while (c[m] != c[m + 1]) { //
+//			m++;
+//		}
+//		System.out.println(c[m]);
 
 	}
 

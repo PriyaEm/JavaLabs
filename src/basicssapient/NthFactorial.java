@@ -27,18 +27,19 @@ public class NthFactorial {
 //		System.out.println(output);
 		
 		
-		int facValue = 1, i=1, largeInt=0; 
+		int facValue = 1, i=1, largeInt=0, facNum=1; 
 //		int i=1;
 //		int fac = 0;
 		while(facValue>0) {
 			facValue = facValue * i;
 			if (facValue > 0) {
 				largeInt=facValue;
+				facNum=i;
 			}			
 			i++;			
 		}
 		
-		System.out.println("the largest non negative Integer is: " + (i-2) );		
+		System.out.println("the largest non negative Integer is: " + facNum );	// or (i-2)
 		
 		System.out.println("Factorial of largest non negative Integer is: " + largeInt);
 
