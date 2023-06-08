@@ -29,7 +29,7 @@ public class SecondMaxArraysWithDuplicates {
 
 		Integer[] arr = new Integer[lhs.size()];
 
-//		arr = lhs.toArray(arr);
+		lhs.toArray(arr);
 		
 		System.out.println(Arrays.toString(arr));
 
